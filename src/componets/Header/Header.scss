@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  position: fixed;
+  padding: 5px;
+  top: 0;
+  width: 100%;
+  background: #000000;
+
+  &__title {
+    font-size: 32px;
+    padding: 10px;
+    color: rgba(114, 23, 199, 0.808);
+    cursor: pointer;
+  }
+}
